@@ -14,6 +14,7 @@ public class VariableScope {
 		System.out.println("main.g1 = " + g1);
 		
 		{//block 1
+			//중복이라 안됨 int a1 = 33;
 			int b1=20;
 			System.out.println("block1.a1 = " + a1);
 			System.out.println("block1.b1 = " + b1);
