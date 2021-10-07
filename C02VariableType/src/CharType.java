@@ -1,10 +1,10 @@
 /*
- * ¹®ÀÚ Å¸ÀÔ(char)
- * ÇÏ³ªÀÇ ¹®ÀÚ Ã³¸® ´ÜÀ§
- * Å©±â:2byte
- * ¹üÀ§: 0 ~ 65535
- * À¯´ÏÄÚµå(Unicode) Ã³¸® ASCII(0~127), È®Àå ASCII(0~255)
- * ÀÛÀº µû¿ÈÇ¥·Î ¾çÂÊÀ» °¨½Ñ´Ù.
+ * ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½(char)
+ * ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+ * Å©ï¿½ï¿½:2byte
+ * ï¿½ï¿½ï¿½ï¿½: 0 ~ 65535
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½(Unicode) Ã³ï¿½ï¿½ ASCII(0~127), È®ï¿½ï¿½ ASCII(0~255)
+ * ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ñ´ï¿½.
  */
 public class CharType {
 
@@ -12,7 +12,7 @@ public class CharType {
 		
 		char chA = 'A';
 		char cha = 'a';
-		char hangeul = 'ÇÑ';
+		char hangeul = 'í•œ';
 
 		System.out.println("chA:" + chA);
 		System.out.println("cha:" + cha);
@@ -26,18 +26,18 @@ public class CharType {
 		System.out.println("chA2:" + chA2);
 		System.out.println("chA3:" + chA3);
 		
-		// À¯´ÏÄÚµå: °¡
+		// ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½: ï¿½ï¿½
 		char hanunicode = '\uac00';
 		System.out.println("hanunicode:" + hanunicode);
 		
-		// 16Áø¼ö : '°¡'
+		// 16ï¿½ï¿½ï¿½ï¿½ : 'ï¿½ï¿½'
 		char hanunicode2 = 0xac00;	
 		System.out.println("hanunicode2:" + hanunicode2);
 		
-		// 10Áø¼ö : '°¡'
+		// 10ï¿½ï¿½ï¿½ï¿½ : 'ï¿½ï¿½'
 		char hanunicode3 = 44032;
 		System.out.println("hanunicode3:"+hanunicode3);
-		System.out.println("'°¡':" + '°¡');
+		System.out.println("'ï¿½ï¿½':" + 'ï¿½ï¿½');
 		
 		
 
