@@ -37,7 +37,7 @@ public class CharType {
 		// 10���� : '��'
 		char hanunicode3 = 44032;
 		System.out.println("hanunicode3:"+hanunicode3);
-		System.out.println("'��':" + '��');
+		
 		
 		
 
